@@ -1,0 +1,42 @@
+header .navbar .dropdown-menu>li:hover>a,
+header .navbar-left .feature-menu li:hover a,
+header .navbar-right .feature-menu li:hover a,
+.dropdown-menu2 li:hover a,
+main .sec-1 button a,
+main .sec-3 button a,
+main .sec-7 span,
+aside .panel-title>.small>a:hover,
+aside .panel-title>a:hover,
+aside .panel-title>small>a:hover,
+aside .panel-body li a:hover,
+aside .contact h4 a:hover,
+aside .contact .glyphicon,
+aside .social i,
+header .logo .glyphicon,
+main .about-sec-5 .btn:active:focus,
+main .about-sec-5 .btn:hover {
+    color: #3768b4;
+}
+
+main .about-sec-5 .btn:active:focus,
+main .about-sec-5 .btn:hover {
+    border: 2px solid #3768b4;
+}
+
+header .carousel .caption3 .btn:hover {
+    background-color: #3768b4;
+    border: 2px solid #3768b4;
+}
+
+main .sec-1,
+main .sec-2 .glyphicon,
+main .sec-3,
+main .sec-4 .fas,
+main .sec-8,
+aside .social i:hover,
+footer div.up,
+footer .subscribe .glyphicon,
+header .logo i:hover,
+.navbar-default {
+    background-color: #3768b4;
+}
