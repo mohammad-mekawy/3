@@ -1,5 +1,22 @@
 /* animation start */
 
+@media (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        animation: anmi-up 0.7s;
+    }
+    @keyframes anmi-up {
+        from {
+            top: 200%;
+            opacity: 0;
+        }
+        to {
+            top: 100%;
+            opacity: 1;
+        }
+    }
+}
+
 @keyframes anmi1 {
     from {
         top: 2000px;

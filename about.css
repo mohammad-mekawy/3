@@ -119,6 +119,23 @@ header .nav-top .navbar-header .modal-content p {
 
 /* search icon end */
 
+@media (min-width: 768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        animation: anmi-up 0.7s;
+    }
+    @keyframes anmi-up {
+        from {
+            top: 200%;
+            opacity: 0;
+        }
+        to {
+            top: 100%;
+            opacity: 1;
+        }
+    }
+}
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
     padding: 10px 0px;
