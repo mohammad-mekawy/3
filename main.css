@@ -1,9 +1,9 @@
 /* animation start */
+
 @keyframes anmi1 {
     from {
         top: 2000px;
     }
-
     to {
         top: 0px;
     }
@@ -24,13 +24,11 @@
     position: relative;
 }
 
-
 @keyframes anmi2 {
     from {
         left: 300px;
         opacity: 0;
     }
-
     to {
         left: 0px;
         opacity: 1;
@@ -42,7 +40,6 @@
         right: 300px;
         opacity: 0;
     }
-
     to {
         right: 0px;
         opacity: 1;
@@ -59,12 +56,10 @@
     animation: anmi3 3s;
 }
 
-
 @keyframes anmi4 {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -74,9 +69,12 @@ div.appear {
     animation: anmi4 6s ease-out;
 }
 
+
 /* animation end */
 
+
 /* search icon start */
+
 header .nav-top .navbar-header .btn:first-child {
     color: #968a8a;
     background: transparent;
@@ -94,7 +92,7 @@ header .nav-top .navbar-header .btn:first-child {
 
 header .nav-top .navbar-header .modal {
     padding-top: 30%;
-    background-color: rgb(0, 0, 0, .7)
+    background-color: rgb(0, 0, 0, 0.7);
 }
 
 header .nav-top .navbar-header .modal-content {
@@ -105,7 +103,7 @@ header .nav-top .navbar-header .modal-content {
 }
 
 .modal-header {
-    border-bottom: 0px
+    border-bottom: 0px;
 }
 
 .modal-header .close {
@@ -128,10 +126,11 @@ header .nav-top .navbar-header .modal-content input {
     outline: 0;
 }
 
+
 /* search icon end */
 
 header .carousel-control {
-    opacity: .9;
+    opacity: 0.9;
     height: 60px;
     top: 50%;
     width: 60px;
@@ -221,7 +220,7 @@ header .carousel .carousel-caption .btn:hover a {
 }
 
 header .carousel .caption2 {
-    text-align: left
+    text-align: left;
 }
 
 header .carousel .caption3 .fas {
@@ -231,7 +230,7 @@ header .carousel .caption3 .fas {
 header .carousel .caption3 .btn {
     background-color: transparent;
     border: 1px solid white;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 header .carousel .caption3 .btn a {
@@ -260,7 +259,7 @@ header .navbar {
 
 header .panel .fas {
     margin-right: 5px;
-    transform: rotatey(180deg)
+    transform: rotatey(180deg);
 }
 
 header .panel a,
@@ -273,9 +272,9 @@ header .panel a,
 }
 
 header .navbar {
-    transition: .5s;
+    transition: 0.5s;
     padding-top: 25px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 header .navbar-brand>img {
@@ -300,7 +299,7 @@ header .panel a,
 .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
     font-weight: bold;
-    font-size: 15px
+    font-size: 15px;
 }
 
 header .navbar .dropdown-menu>li>a,
@@ -379,7 +378,7 @@ header .navbar-right .feature-menu {
 header .navbar .dropdown-menu>li>a:hover,
 header .navbar-right .feature-menu li a:hover,
 .dropdown-menu2 li a:hover {
-    background-color: transparent
+    background-color: transparent;
 }
 
 main .sec-1 {
@@ -423,7 +422,7 @@ main .sec-3 .glyphicon {
 }
 
 main .sec-2 h2 {
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 main .sec-2,
@@ -442,15 +441,15 @@ main .sec-2 .glyphicon {
 }
 
 main .sec-2 h3 {
-    font-weight: bold
+    font-weight: bold;
 }
 
 main .sec-2 p {
-    font-size: 15px
+    font-size: 15px;
 }
 
 main .row div {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 main .sec-3 {
@@ -529,7 +528,12 @@ main .sec-5 {
 }
 
 main .sec-5 img {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+}
+
+main .sec-5 .owl-carousel .owl-item img {
+    width: auto;
+    margin: auto;
 }
 
 main .sec-6 {
@@ -538,8 +542,8 @@ main .sec-6 {
 }
 
 main .sec-6 .sec-6-layer {
-    background-color: rgb(12, 12, 12, .7);
-    padding: 60px 0px
+    background-color: rgb(12, 12, 12, 0.7);
+    padding: 60px 0px;
 }
 
 main .sec-6 .row {
@@ -555,11 +559,11 @@ main .sec-6 h2 {
 
 main .sec-6 p.lead {
     font-size: 17px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
 }
 
 main .sec-6 p.lead:first-child {
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 main .sec-6 input,
@@ -590,11 +594,11 @@ main .sec-6 button {
     background-color: #dbd1d1;
     color: #000;
     border: 1px solid #dbd1d1;
-    transition: .5s
+    transition: 0.5s;
 }
 
 main .sec-7 h2 {
-    margin-bottom: 40px
+    margin-bottom: 40px;
 }
 
 main .sec-7 img {
@@ -602,7 +606,7 @@ main .sec-7 img {
 }
 
 main .sec-7 img {
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 
 main .sec-7 p.lead {
@@ -634,7 +638,7 @@ main .sec-8 .glyphicon {
     border-radius: 50%;
     float: left;
     margin-right: 10px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 main .sec-8 div.con {
@@ -682,7 +686,7 @@ footer p.lead:first-child {
 footer a {
     color: rgb(226, 213, 213);
     font-size: 16px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 footer a:hover,
@@ -693,7 +697,7 @@ footer a:focus {
 
 footer h2 {
     color: #fff;
-    border-bottom: 1px solid rgb(167, 160, 160, .5);
+    border-bottom: 1px solid rgb(167, 160, 160, 0.5);
     width: 28%;
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -733,7 +737,7 @@ footer .subscribe .form-control {
 }
 
 footer .subscribe p {
-    border-bottom: 1px solid rgb(167, 160, 160, .5);
+    border-bottom: 1px solid rgb(167, 160, 160, 0.5);
     width: 100%;
     padding-bottom: 30px;
     padding-top: 20px;
@@ -836,7 +840,7 @@ aside .panel-heading .glyphicon {
     text-decoration: none;
     width: 100%;
     display: inline-block;
-    font-size: 15px
+    font-size: 15px;
 }
 
 aside .panel-body {
@@ -883,14 +887,14 @@ aside .contact h5 {
 }
 
 aside .contact h4 {
-    font-size: 15px
+    font-size: 15px;
 }
 
 aside .contact h4 a {
     font-size: 15px;
     color: #000;
     text-decoration: none;
-    transition: .5s
+    transition: 0.5s;
 }
 
 aside .social i {
@@ -910,48 +914,38 @@ aside .social i:hover {
     color: #fff;
 }
 
-@media(max-width:768px) {
-
+@media (max-width: 768px) {
     header .carousel .carousel-caption {
         padding-top: 50%;
     }
-
     header .carousel .carousel-caption .h1 {
         font-size: 26px;
         font-weight: bolder;
     }
-
     footer .copyright {
         text-align: center;
     }
-
-
     header .navbar-brand>img {
         width: 70%;
         margin-top: 0px;
     }
-
     .navbar-toggle .icon-bar+.icon-bar,
     .navbar-toggle .icon-bar {
         margin-top: 6px;
         width: 35px;
         height: 3px;
     }
-
     .navbar-default .navbar-toggle {
         margin-top: 18px;
         border-color: transparent;
     }
-
     .navbar-toggle {
         border: 0px;
     }
-
     .navbar-default .navbar-toggle:focus,
     .navbar-default .navbar-toggle:hover {
         background-color: transparent;
     }
-
 }
 
 .color-tool {
@@ -963,7 +957,7 @@ aside .social i:hover {
     width: 300px;
     z-index: 99999;
     padding: 125px 22px;
-    transition: .5s;
+    transition: 0.5s;
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
@@ -989,11 +983,11 @@ aside .social i:hover {
 }
 
 .color-tool h4 {
-    font-weight: bold
+    font-weight: bold;
 }
 
 .color-tool h5 {
-    font-size: 17px
+    font-size: 17px;
 }
 
 .pos {

@@ -1,25 +1,117 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
-
-    $(".close").click(function () {
+    $(".close").click(function() {
         $("aside").animate({
             left: "-100%"
         })
     });
 
-    $(".navbar-toggle").click(function () {
+    $(".navbar-toggle").click(function() {
         $("aside").animate({
             left: "0%"
         })
     });
 
-    $(".cog-div").click(function () {
+    $(".cog-div").click(function() {
         $(".color-tool").toggleClass("pos")
     });
 
-    $("li.theme").click(function () {
+    $("li.theme").click(function() {
         $("link[href*='theme']").attr("href", $(this).attr('data-value'))
     });
+
+    if ($(window).scrollTop() > 120) {
+        $("div.up").fadeIn();
+    } else {
+        $("div.up").fadeOut();
+    }
+    $(window).on("scroll", function() {
+        if ($(window).scrollTop() > 120) {
+            $("div.up").fadeIn();
+        } else {
+            $("div.up").fadeOut();
+        }
+    })
+    $("div.up").click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 2000);
+    })
+
+
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > 120) {
+            $('.navbar').css({
+                position: "fixed",
+                paddingTop: "15px",
+                top: 0,
+                width: "100%",
+                backgroundColor: "#fff",
+                borderRadius: "0px",
+                boxShadow: "0 1px 3px rgba(0, 0, 0, 0.14)",
+                zIndex: 99999
+            });
+            $('.navbar-right>li>a').css({
+                color: "#000"
+            })
+            $('#logo').attr("src", "logo_black.png");
+            $(".search-btn").css("top", 37)
+
+        } else {
+            $("header .panel-body").css({
+                paddingBottom: "25px"
+            })
+            $('.navbar').css({
+                position: "static",
+                paddingTop: "0px",
+                backgroundColor: "transparent",
+                boxShadow: " 0px 0px 0px 0px",
+                zIndex: 1
+            });
+            $('.navbar-right>li>a').css({
+                color: "#fff"
+            })
+            $('#logo').attr("src", "mail-logo.png")
+            $(".search-btn").css("top", 23)
+        }
+    })
+    if ($(window).scrollTop() > 120) {
+        $('.navbar').css({
+            position: "fixed",
+            paddingTop: "15px",
+            top: 0,
+            width: "100%",
+            backgroundColor: "#fff",
+            borderRadius: "0px",
+            boxShadow: "0 1px 3px rgba(0, 0, 0, 0.14)",
+            zIndex: 99999
+        });
+        $('.navbar-right>li>a').css({
+            color: "#000"
+        })
+        $('#logo').attr("src", "logo_black.png");
+        $(".search-btn").css("top", 37)
+
+    } else {
+        $("header .panel-body").css({
+            paddingBottom: "25px"
+        })
+        $('.navbar').css({
+            position: "static",
+            paddingTop: "0px",
+            backgroundColor: "transparent",
+            boxShadow: " 0px 0px 0px 0px",
+            zIndex: 1
+        });
+        $('.navbar-right>li>a').css({
+            color: "#fff"
+        })
+        $('#logo').attr("src", "mail-logo.png")
+        $(".search-btn").css("top", 23)
+    }
+    $(".dropdown a").click(function() {
+        window.location = $(this).attr("href")
+    })
 
     // $("a.collapsed").on("click", function () {
     //     $("a.collapsed>span").toggleClass("glyphicon-chevron-down")
@@ -59,93 +151,4 @@ $(document).ready(function () {
     //     $(".dropdown-menu").append("<li><a href='#'>HOMEPAGES0" + i + "</a></li>")
     // }
 
-    if ($(window).scrollTop() > 120) {
-        $("div.up").fadeIn();
-    } else {
-        $("div.up").fadeOut();
-    }
-    $(window).on("scroll", function () {
-        if ($(window).scrollTop() > 120) {
-            $("div.up").fadeIn();
-        } else {
-            $("div.up").fadeOut();
-        }
-    })
-    $("div.up").click(function () {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 1000);
-    })
-
-
-    $(window).on('scroll', function () {
-        if ($(window).scrollTop() > 120) {
-            $('.navbar').css({
-                position: "fixed",
-                paddingTop: "15px",
-                top: 0,
-                width: "100%",
-                backgroundColor: "#fff",
-                borderRadius: "0px",
-                boxShadow: "0 1px 3px rgba(0, 0, 0, 0.14)",
-                zIndex: 99999
-            });
-            $('.navbar-right>li>a').css({
-                color: "#000"
-            })
-            $('#logo').attr("src", "assets/imgs/logo_black.png");
-            $(".search-btn").css("top",37)
-
-        } else {
-            $("header .panel-body").css({
-                paddingBottom: "25px"
-            })
-            $('.navbar').css({
-                position: "static",
-                paddingTop: "0px",
-                backgroundColor: "transparent",
-                boxShadow: " 0px 0px 0px 0px",
-                zIndex: 1
-            });
-            $('.navbar-right>li>a').css({
-                color: "#fff"
-            })
-            $('#logo').attr("src", "assets/imgs/mail-logo.png")
-            $(".search-btn").css("top",23)
-        }
-    })
-    if ($(window).scrollTop() > 120) {
-        $('.navbar').css({
-            position: "fixed",
-            paddingTop: "15px",
-            top: 0,
-            width: "100%",
-            backgroundColor: "#fff",
-            borderRadius: "0px",
-            boxShadow: "0 1px 3px rgba(0, 0, 0, 0.14)",
-            zIndex: 99999
-        });
-        $('.navbar-right>li>a').css({
-            color: "#000"
-        })
-        $('#logo').attr("src", "assets/imgs/logo_black.png");
-        $(".search-btn").css("top",37)
-
-    } else {
-        $("header .panel-body").css({
-            paddingBottom: "25px"
-        })
-        $('.navbar').css({
-            position: "static",
-            paddingTop: "0px",
-            backgroundColor: "transparent",
-            boxShadow: " 0px 0px 0px 0px",
-            zIndex: 1
-        });
-        $('.navbar-right>li>a').css({
-            color: "#fff"
-        })
-        $('#logo').attr("src", "assets/imgs/mail-logo.png")
-        $(".search-btn").css("top",23)
-    }
 });

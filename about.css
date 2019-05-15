@@ -29,7 +29,7 @@ header .logo p a {
     font-size: 15px;
     color: #000;
     text-decoration: none;
-    transition: .5s
+    transition: 0.5s;
 }
 
 header .logo i {
@@ -49,7 +49,9 @@ header .logo i:hover {
     color: #fff;
 }
 
+
 /* search icon start */
+
 header .nav-top .navbar-header .btn:first-child {
     color: #968a8a;
     background: transparent;
@@ -75,7 +77,7 @@ header .nav-top .navbar-right .btn:first-child {
 
 header .nav-top .navbar-header .modal {
     padding-top: 12%;
-    background-color: rgb(0, 0, 0, .8);
+    background-color: rgb(0, 0, 0, 0.8);
 }
 
 header .nav-top .navbar-header .modal-content {
@@ -86,7 +88,7 @@ header .nav-top .navbar-header .modal-content {
 }
 
 .modal-header {
-    border-bottom: 0px
+    border-bottom: 0px;
 }
 
 .modal-header .close {
@@ -114,8 +116,8 @@ header .nav-top .navbar-header .modal-content p {
     font-size: 18px;
 }
 
-/* search icon end */
 
+/* search icon end */
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -128,7 +130,7 @@ header .nav-top .navbar-header .modal-content p {
 .navbar-default .navbar-nav>li>a:hover {
     color: #fff;
     font-weight: bold;
-    font-size: 17px
+    font-size: 17px;
 }
 
 .nav>li>a {
@@ -192,7 +194,7 @@ header .navbar-left .feature-menu {
     position: absolute;
     left: 100%;
     background-color: #fff;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
 
 .dropdown-menu2 li {
@@ -212,7 +214,7 @@ header .navbar-left .feature-menu {
 header .navbar .dropdown-menu>li>a:hover,
 header .navbar-left .feature-menu li a:hover,
 .dropdown-menu2 li a:hover {
-    background-color: transparent
+    background-color: transparent;
 }
 
 .navbar-right {
@@ -222,16 +224,16 @@ header .navbar-left .feature-menu li a:hover,
 .navbar {
     margin-bottom: 0px;
     border: 0px;
-    border-radius: 0px
+    border-radius: 0px;
 }
 
 .about-pic {
-    background-image: url(../imgs/about-pic.jpg);
+    background-image: url(about-pic.jpg);
     background-size: cover;
 }
 
 .about-pic .h1 {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     font-weight: bold;
     padding: 60px;
@@ -267,9 +269,9 @@ main .about-sec-2 {
 }
 
 main .about-sec-2 .bg-pic {
-    background-image: url(../imgs/about-img1.jpg);
+    background-image: url(about-img1.jpg);
     background-size: cover;
-    padding: 50px 30px 300px
+    padding: 50px 30px 300px;
 }
 
 main .about-sec-2 h2 {
@@ -284,7 +286,7 @@ main .about-sec-2 p {
 main .about-sec-2 .btn {
     background: transparent;
     border: 2px solid;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 main .about-sec-2 .btn:active:focus,
@@ -303,7 +305,7 @@ main .about-sec-3 {
 }
 
 main .about-sec-3 h3 {
-    font-weight: bold
+    font-weight: bold;
 }
 
 main .about-sec-3 p {
@@ -318,7 +320,7 @@ main .about-sec-3 p.last {
 }
 
 main .about-sec-4 .vedio {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 main .about-sec-4 h3,
@@ -339,7 +341,6 @@ main .about-sec-4 .panel {
 
 main .about-sec-4 .panel {
     border: 2px solid #ddd;
-
 }
 
 main .about-sec-4 .panel-group .panel-heading+.panel-collapse>.panel-body {
@@ -371,7 +372,7 @@ main .about-sec-5 p {
 main .about-sec-5 .btn {
     background: transparent;
     border: 2px solid #fff;
-    transition: .5s;
+    transition: 0.5s;
     color: #fff;
     font-weight: bold;
     padding: 10px 20px;
@@ -401,7 +402,7 @@ main .sec-8 .glyphicon {
     border-radius: 50%;
     float: left;
     margin-right: 10px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 main .sec-8 div.con {
@@ -449,7 +450,7 @@ footer p.lead:first-child {
 footer a {
     color: rgb(226, 213, 213);
     font-size: 16px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 footer a:hover,
@@ -460,7 +461,7 @@ footer a:focus {
 
 footer h2 {
     color: #fff;
-    border-bottom: 1px solid rgb(167, 160, 160, .5);
+    border-bottom: 1px solid rgb(167, 160, 160, 0.5);
     width: 28%;
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -500,7 +501,7 @@ footer .subscribe .form-control {
 }
 
 footer .subscribe p {
-    border-bottom: 1px solid rgb(167, 160, 160, .5);
+    border-bottom: 1px solid rgb(167, 160, 160, 0.5);
     width: 100%;
     padding-bottom: 30px;
     padding-top: 20px;
@@ -603,7 +604,7 @@ aside .panel-heading .glyphicon {
     text-decoration: none;
     width: 100%;
     display: inline-block;
-    font-size: 15px
+    font-size: 15px;
 }
 
 aside .panel-body {
@@ -650,14 +651,14 @@ aside .contact h5 {
 }
 
 aside .contact h4 {
-    font-size: 15px
+    font-size: 15px;
 }
 
 aside .contact h4 a {
     font-size: 15px;
     color: #000;
     text-decoration: none;
-    transition: .5s
+    transition: 0.5s;
 }
 
 aside .social i {
@@ -677,38 +678,31 @@ aside .social i:hover {
     color: #fff;
 }
 
-@media(max-width:992px) {
-
+@media (max-width: 992px) {
     header .navbar-default {
         background-color: #fff;
     }
-
     .navbar-toggle .icon-bar+.icon-bar,
     .navbar-toggle .icon-bar {
         margin-top: 6px;
         width: 35px;
         height: 3px;
     }
-
     .navbar-default .navbar-toggle {
         margin-top: 18px;
         border-color: transparent;
     }
-
     .navbar-toggle {
         border: 0px;
     }
-
     .navbar-default .navbar-toggle:focus,
     .navbar-default .navbar-toggle:hover {
         background-color: transparent;
     }
-
     footer .copyright,
     main .about-sec-5 {
         text-align: center;
     }
-
 }
 
 .color-tool {
@@ -720,7 +714,7 @@ aside .social i:hover {
     width: 300px;
     z-index: 99999;
     padding: 125px 22px;
-    transition: .5s;
+    transition: 0.5s;
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.14);
 }
 
@@ -746,11 +740,11 @@ aside .social i:hover {
 }
 
 .color-tool h4 {
-    font-weight: bold
+    font-weight: bold;
 }
 
 .color-tool h5 {
-    font-size: 17px
+    font-size: 17px;
 }
 
 .pos {
