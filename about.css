@@ -134,6 +134,20 @@ header .nav-top .navbar-header .modal-content p {
             opacity: 1;
         }
     }
+    .dropdown2:hover .dropdown-menu2 {
+        display: block;
+        animation: anmi-up2 0.7s;
+    }
+    @keyframes anmi-up2 {
+        from {
+            top: 200%;
+            opacity: 0;
+        }
+        to {
+            top: -12%;
+            opacity: 1;
+        }
+    }
 }
 
 .navbar-default .navbar-collapse,

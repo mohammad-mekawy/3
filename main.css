@@ -15,6 +15,20 @@
             opacity: 1;
         }
     }
+    .dropdown2:hover .dropdown-menu2 {
+        display: block;
+        animation: anmi-up2 0.7s;
+    }
+    @keyframes anmi-up2 {
+        from {
+            top: 200%;
+            opacity: 0;
+        }
+        to {
+            top: -12%;
+            opacity: 1;
+        }
+    }
 }
 
 @keyframes anmi1 {
@@ -384,13 +398,15 @@ header .navbar-right .feature-menu {
     border-bottom: 1px solid gainsboro;
 }
 
+
+/* 
 .dropdown2:hover>.dropdown-menu2 {
     display: block;
 }
 
 .dropdown:hover>.dropdown-menu {
     display: block;
-}
+} */
 
 header .navbar .dropdown-menu>li>a:hover,
 header .navbar-right .feature-menu li a:hover,
